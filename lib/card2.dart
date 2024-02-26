@@ -15,8 +15,7 @@ class Card2 extends StatelessWidget {
         ),
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: NetworkImage(
-                'https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2016/07/matchaSmoothie-916303446-770x533-1.jpg'),
+            image: AssetImage('assets/mag5.png'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.all(
@@ -29,7 +28,7 @@ class Card2 extends StatelessWidget {
             const AuthorCard(
               authorName: 'Mike Katz',
               title: 'Smoothie Connoisseur',
-              imageProvider: NetworkImage('https://image.tmdb.org/t/p/original/wOXGJRxirMjXitZtsPE95B4wHAn.jpg'),
+              imageProvider: AssetImage('assets/author_katz.jpeg'),
             ),
             // 1
             Expanded(

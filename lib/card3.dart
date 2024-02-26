@@ -14,8 +14,7 @@ class Card3 extends StatelessWidget {
         ),
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: NetworkImage(
-                'https://signsfordesign.com/cdn/shop/products/image_15789fe3-4ac4-4e54-af04-6eda9fbc2fa1.jpg?v=1602461797'),
+            image: AssetImage('assets/mag2.png'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.all(Radius.circular(10.0)),

@@ -27,8 +27,7 @@ class Card1 extends StatelessWidget {
           // 4
           image: DecorationImage(
             // 5
-            image: NetworkImage(
-                'https://www.tastingtable.com/img/gallery/14-popular-and-unconventional-uses-for-pre-made-pizza-dough/l-intro-1676502619.jpg'),
+            image: AssetImage('assets/mag1.png'),
             // 6
             fit: BoxFit.cover,
           ),
